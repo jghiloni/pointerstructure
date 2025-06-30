@@ -1,4 +1,4 @@
-# pointerstructure [![GoDoc](https://godoc.org/github.com/mitchellh/pointerstructure?status.svg)](https://godoc.org/github.com/mitchellh/pointerstructure)
+# pointerstructure [![GoDoc](https://godoc.org/github.com/jghiloni/pointerstructure/v2?status.svg)](https://godoc.org/github.com/jghiloni/pointerstructure/v2)
 
 pointerstructure is a Go library for identifying a specific value within
 any Go structure using a string syntax.
@@ -10,6 +10,12 @@ reimplemented for Go.
 The goal of pointerstructure is to provide a single, well-known format
 for addressing a specific value. This can be useful for user provided
 input on structures, diffs of structures, etc.
+
+## Note from @jghiloni
+
+Since Mitchell has archived his repos and pointerstructure has no blessed
+fork, I thought I would start one here and am willing to take ownership
+of it.
 
 ## Features
 
@@ -26,12 +32,12 @@ input on structures, diffs of structures, etc.
 Standard `go get`:
 
 ```
-$ go get github.com/mitchellh/pointerstructure
+$ go get github.com/jghiloni/pointerstructure/v2
 ```
 
 ## Usage & Example
 
-For usage and examples see the [Godoc](http://godoc.org/github.com/mitchellh/pointerstructure).
+For usage and examples see the [Godoc](http://godoc.org/github.com/jghiloni/pointerstructure/v2).
 
 A quick code example is shown below:
 
