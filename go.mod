@@ -1,4 +1,4 @@
-module github.com/mitchellh/pointerstructure/v2
+module github.com/jghiloni/pointerstructure/v2
 
 go 1.23.0
 
